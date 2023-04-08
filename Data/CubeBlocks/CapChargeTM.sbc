@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
+      <Id>
+        <TypeId>BatteryBlock</TypeId>
+				<SubtypeId>CapChargeTM</SubtypeId>
+			</Id>
+			<DisplayName>CapChargeTM</DisplayName>
+			<Description>{LOC:Description_CapChargeTM}</Description>
+			<Icon>Textures\Cubes\CapChargeTM.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\CapChargeTM.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+			</MountPoints>
+			<BlockPairName>CapChargeTM</BlockPairName>
+
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <MaxPowerOutput>1210</MaxPowerOutput>
+
+      <ResourceSinkGroup>CapCharge</ResourceSinkGroup>
+      <RequiredPowerInput>0</RequiredPowerInput>
+      <AdaptibleInput>false</AdaptibleInput>
+      <MaxStoredPower>5000</MaxStoredPower>
+      <InitialStoredPowerRatio>0.5</InitialStoredPowerRatio>
+      <RechargeMultiplier>0</RechargeMultiplier>
+      
+		</Definition>
+	</CubeBlocks>
+</Definitions>

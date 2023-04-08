@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+      <Id>
+        <TypeId>ConveyorSorter</TypeId>
+				<SubtypeId>Cannon250mm</SubtypeId>
+			</Id>
+			<DisplayName>250mm Cannon | 150bp</DisplayName>
+			<Description>Shoots APHE rounds 15km down range.</Description>
+			<Icon>Textures\Cubes\250mm.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="2"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\250mm.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<BlockPairName>250mm</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
