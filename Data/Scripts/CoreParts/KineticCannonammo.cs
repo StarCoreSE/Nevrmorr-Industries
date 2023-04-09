@@ -2737,7 +2737,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 21f, // Radius of AOE effect, in meters.
-                    Damage = 6000f,
+                    Damage = 26000f,
                     Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 5000f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
@@ -3161,7 +3161,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 24f, // Radius of AOE effect, in meters.
-                    Damage = 6000f,
+                    Damage = 26000f,
                     Depth = 1f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 5000f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
