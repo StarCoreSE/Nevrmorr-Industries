@@ -188,7 +188,7 @@ namespace Scripts {
                 },
             },
             Ammos = new[] {
-                 SemiArmorPiercing1000mm, HighExplosiveFrag,
+                 SemiArmorPiercing1000mm, 
                  // Must list all primary, shrapnel, and pattern ammos.
             },
             //Animations = Weapon75_Animation,
