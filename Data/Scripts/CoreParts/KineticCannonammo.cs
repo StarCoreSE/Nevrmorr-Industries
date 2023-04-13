@@ -326,8 +326,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -750,8 +750,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -1174,8 +1174,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -1598,8 +1598,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -2446,8 +2446,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -2870,8 +2870,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
@@ -3294,8 +3294,8 @@ namespace Scripts
             },
             AmmoGraphics = new GraphicDef
             {
-                ModelName = "", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
-                VisualProbability = 1f, // %
+                ModelName = "\\Models\\Ammo\\GingersnapsMissile.mwm", // Model Path goes here.  "\\Models\\Ammo\\Starcore_Arrow_Missile_Large"
+                VisualProbability = 100f, // %
                 ShieldHitDraw = false,
                 Decals = new DecalDef
                 {
