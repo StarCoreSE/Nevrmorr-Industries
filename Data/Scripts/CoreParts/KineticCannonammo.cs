@@ -193,7 +193,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 9f, // Radius of AOE effect, in meters.
-                    Damage = 16000f,
+                    Damage = 26000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -204,7 +204,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -628,7 +628,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -1052,7 +1052,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -1465,7 +1465,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 12f, // Radius of AOE effect, in meters.
-                    Damage = 128000f,
+                    Damage = 12800f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -1476,7 +1476,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -1889,7 +1889,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 14f, // Radius of AOE effect, in meters.
-                    Damage = 256000f,
+                    Damage = 25600f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -1900,7 +1900,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -2313,7 +2313,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 15f, // Radius of AOE effect, in meters.
-                    Damage = 512000f,
+                    Damage = 51200f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -2324,7 +2324,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -2737,7 +2737,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 16f, // Radius of AOE effect, in meters.
-                    Damage = 1024000f,
+                    Damage = 102400f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -2748,7 +2748,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
@@ -3161,7 +3161,7 @@ namespace Scripts
                 {
                     Enable = true,
                     Radius = 17f, // Radius of AOE effect, in meters.
-                    Damage = 2048000f,
+                    Damage = 204800f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
                     Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
@@ -3172,7 +3172,7 @@ namespace Scripts
                     //.Pooled damage behaves in a pooled manner that once exhausted damage ceases.
                     //.Exponential drops off exponentially.  Does not scale to max radius
                     ArmOnlyOnHit = true, // Detonation only is available, After it hits something, when this is true. IE, if shot down, it won't explode.
-                    MinArmingTime = 6, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
+                    MinArmingTime = 0, // In ticks, before the Ammo is allowed to explode, detonate or similar; This affects shrapnel spawning.
                     NoVisuals = false,
                     NoSound = false,
                     ParticleScale = 1,
