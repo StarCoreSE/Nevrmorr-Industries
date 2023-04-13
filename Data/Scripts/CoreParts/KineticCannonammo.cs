@@ -192,7 +192,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 4f, // Radius of AOE effect, in meters.
+                    Radius = 9f, // Radius of AOE effect, in meters.
                     Damage = 16000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -616,7 +616,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 6f, // Radius of AOE effect, in meters.
+                    Radius = 10f, // Radius of AOE effect, in meters.
                     Damage = 32000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb =0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -1040,7 +1040,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 9f, // Radius of AOE effect, in meters.
+                    Radius = 11f, // Radius of AOE effect, in meters.
                     Damage = 64000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -1888,7 +1888,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 15f, // Radius of AOE effect, in meters.
+                    Radius = 14f, // Radius of AOE effect, in meters.
                     Damage = 256000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -2312,7 +2312,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 18f, // Radius of AOE effect, in meters.
+                    Radius = 15f, // Radius of AOE effect, in meters.
                     Damage = 512000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -2736,7 +2736,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 21f, // Radius of AOE effect, in meters.
+                    Radius = 16f, // Radius of AOE effect, in meters.
                     Damage = 1024000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
@@ -3160,7 +3160,7 @@ namespace Scripts
                 EndOfLife = new EndOfLifeDef
                 {
                     Enable = true,
-                    Radius = 24f, // Radius of AOE effect, in meters.
+                    Radius = 17f, // Radius of AOE effect, in meters.
                     Damage = 2048000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
                     MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
