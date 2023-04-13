@@ -1742,7 +1742,7 @@ namespace Scripts
             AmmoRound = "SAP 1000mm", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 256000f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 2560f, // Direct damage; one steel plate is worth 100.
             Mass = 0f, // In kilograms; how much force the impact will apply to the target.
             Health = 50, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
@@ -1891,8 +1891,8 @@ namespace Scripts
                     Radius = 15f, // Radius of AOE effect, in meters.
                     Damage = 256000f,
                     Depth = 0f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
-                    MaxAbsorb = 5000f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
-                    Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
+                    MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
+                    Falloff = NoFalloff, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
                     //.Curve drops off damage sharply as it approaches the max radius
                     //.InvCurve drops off sharply from the middle and tapers to max radius
@@ -3440,7 +3440,7 @@ namespace Scripts
             AmmoRound = "HE Warhead", // Name of ammo in terminal, should be different for each ammo type used by the same weapon. Is used by Shrapnel.
             HybridRound = false, // Use both a physical ammo magazine and energy per shot.
             EnergyCost = 0.1f, // Scaler for energy per shot (EnergyCost * BaseDamage * (RateOfFire / 3600) * BarrelsPerShot * TrajectilesPerBarrel). Uses EffectStrength instead of BaseDamage if EWAR.
-            BaseDamage = 1005f, // Direct damage; one steel plate is worth 100.
+            BaseDamage = 10005f, // Direct damage; one steel plate is worth 100.
             Mass = 0f, // In kilograms; how much force the impact will apply to the target.
             Health = 0, // How much damage the projectile can take from other projectiles (base of 1 per hit) before dying; 0 disables this and makes the projectile untargetable.
             BackKickForce = 0f, // Recoil. This is applied to the Parent Grid.
@@ -3585,12 +3585,12 @@ namespace Scripts
                 },
                 EndOfLife = new EndOfLifeDef
                 {
-                    Enable = false,
-                    Radius = 3f, // Radius of AOE effect, in meters.
+                    Enable = true,
+                    Radius = 8f, // Radius of AOE effect, in meters.
                     Damage = 26000f,
-                    Depth = 2f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
-                    MaxAbsorb = 5000f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
-                    Falloff = Pooled, //.NoFalloff applies the same damage to all blocks in radius
+                    Depth = 4f, // Max depth of AOE effect, in meters. 0=disabled, and AOE effect will reach to a depth of the radius value
+                    MaxAbsorb = 0f, // Soft cutoff for damage, except for pooled falloff.  If pooled falloff, limits max damage per block.
+                    Falloff = Linear, //.NoFalloff applies the same damage to all blocks in radius
                     //.Linear drops evenly by distance from center out to max radius
                     //.Curve drops off damage sharply as it approaches the max radius
                     //.InvCurve drops off sharply from the middle and tapers to max radius
