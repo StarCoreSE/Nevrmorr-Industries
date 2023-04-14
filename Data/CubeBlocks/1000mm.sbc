@@ -4,9 +4,9 @@
     <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
         <TypeId>ConveyorSorter</TypeId>
-				<SubtypeId>Cannon1000mm</SubtypeId>
+				<SubtypeId>ZeroGTorpedo</SubtypeId>
 			</Id>
-			<DisplayName>1000mm Cannon | 400bp</DisplayName>
+			<DisplayName>Zero G Torpedo | 850bp</DisplayName>
 			<Description>Shoots APHE 15km down range</Description>
 			<Icon>Textures\Cubes\750mm.dds</Icon>
 			<CubeSize>Large</CubeSize>

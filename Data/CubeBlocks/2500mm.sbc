@@ -6,7 +6,7 @@
         <TypeId>ConveyorSorter</TypeId>
 				<SubtypeId>Cannon2500mm</SubtypeId>
 			</Id>
-			<DisplayName>2500mm Cannon | 650bp</DisplayName>
+			<DisplayName>2500mm Cannon | 1050bp</DisplayName>
 			<Description>Lobs a APHE 15km shell down range</Description>
       <Icon>Textures\Cubes\750mm.dds</Icon>
 			<CubeSize>Large</CubeSize>
