@@ -18,6 +18,8 @@
 
         
         <Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorSorter/ProtonBeam" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorSorter/Cannon2500mm" />
+        <Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorSorter/ZeroGTorpedo" />
         
 
 

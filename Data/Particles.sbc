@@ -2,7 +2,7 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ParticleEffects>
     <ParticleEffect xsi:type="ParticleEffect">
-      <Id Type="MyObjectBuilder_ParticleEffect" Subtype="Energy_Explosion" />
+      <Id Type="MyObjectBuilder_ParticleEffect" Subtype="ExplosionEffect" />
       <ParticleId>34</ParticleId>
       <Length>2</Length>
       <Preload>0</Preload>
