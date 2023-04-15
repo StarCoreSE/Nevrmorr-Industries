@@ -56,12 +56,12 @@ namespace Scripts {
             HardPoint = new HardPointDef
             {
                 PartName = "0g Torpedo", // Name of the weapon in terminal, should be unique for each weapon definition that shares a SubtypeId (i.e. multiweapons).
-                DeviateShotAngle = 0.2f, // Projectile inaccuracy in degrees.
-                AimingTolerance = 1f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
+                DeviateShotAngle = 0f, // Projectile inaccuracy in degrees.
+                AimingTolerance = 180f, // How many degrees off target a turret can fire at. 0 - 180 firing angle.
                 AimLeadingPrediction = Off, // Level of turret aim prediction; Off, Basic, Accurate, Advanced
                 DelayCeaseFire = 0, // Measured in game ticks (6 = 100ms, 60 = 1 second, etc..). Length of time the weapon continues firing after trigger is released - while a target is available.
                 AddToleranceToTracking = false, // Allows turret to track to the edge of the AimingTolerance cone instead of dead centre.
-                CanShootSubmerged = false, // Whether the weapon can be fired underwater when using WaterMod.
+                CanShootSubmerged = true, // Whether the weapon can be fired underwater when using WaterMod.
 
                 Ui = new UiDef
                 {
@@ -92,7 +92,7 @@ namespace Scripts {
                     HomeAzimuth = 0, // Default resting rotation angle
                     HomeElevation = 0, // Default resting elevation
                     InventorySize = 1f, // Inventory capacity in kL.
-                    IdlePower = 0.25f, // Constant base power draw in MW.
+                    IdlePower = 0f, // Constant base power draw in MW.
                     FixedOffset = false, // Deprecated.
                     Offset = Vector(x: 0, y: 0, z: 0), // Offsets the aiming/firing line of the weapon, in metres.
                     Type = BlockWeapon, // What type of weapon this is; BlockWeapon, HandWeapon, Phantom 
@@ -157,7 +157,7 @@ namespace Scripts {
                 {
                     Effect1 = new ParticleDef
                     {
-                        Name = "Muzzle Flash", // SubtypeId of muzzle particle effect.
+                        Name = "", // SubtypeId of muzzle particle effect.
                         Color = Color(red: 0, green: 0, blue: 0, alpha: 1), // Deprecated, set color in particle sbc.
                         Offset = Vector(x: 0, y: 0, z: 0), // Offsets the effect from the muzzle empty.
                         DisableCameraCulling = false, // If not true will not cull when not in view of camera, be careful with this and only use if you know you need it
